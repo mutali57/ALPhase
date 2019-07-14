@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="2dp">
+
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/activity_cImageView"
+		android:layout_gravity="center_horizontal"
+		android:padding="5dp"
+		android:background="@layout/img"
+		android:src="@drawable/myprofile"
+		android:adjustViewBounds="true"
+		android:layout_weight="0.2   "/>
+
+	<TextView
+		android:layout_marginTop="12dp"
+		android:layout_gravity="center_horizontal"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/activity_cTitle"
+		android:text="Mutali Nepfumbada"
+		android:layout_weight="0.001"
+		style="@style/text_title"
+		android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/activityc_track"
+		style="@style/text_info"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Text"
+		android:id="@+id/activityc_country"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		style="@style/text_info"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Text"
+		android:id="@+id/activityc_email"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		style="@style/text_info"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:text="Text"
+		android:id="@+id/activityc_phone"
+		style="@style/text_info"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Text"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:id="@+id/activityc_slackusername"
+		style="@style/text_info"/>
+
+</LinearLayout>
+

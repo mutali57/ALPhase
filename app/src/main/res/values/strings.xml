@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+	<string name="name">Mutali Nepfumbada</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="app_name">ALC 4 Phase 1</string>
+	<string name="activityb">About ALC</string>
+	<string name="activityc">My Profile</string>
+
+</resources>
