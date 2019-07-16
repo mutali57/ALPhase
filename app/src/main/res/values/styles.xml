@@ -6,30 +6,25 @@
         <item name="colorAccent">@color/colorAccent</item>
 		
 	</style>
-	<style name="text_info">
-		<item name ="android:textColor">@color/text_color</item>
-        <item name ="android:layout_margin">@dimen/text_margin</item>
-		<item name="android:textSize">@dimen/text_small</item>
+	<style name="text_title">	
+
 		<item name="android:typeface">serif</item>
+		<item name="android:textSize">@dimen/text_large</item>
+		<item name ="android:textColor">@color/text_color</item>
+		<item name ="android:layout_margin">@dimen/text_margin</item>	
+		<item name ="android:padding">@dimen/text_padding</item>
+		<item name="android:background">@layout/info_txt</item>
+	</style>
+	<style name="text_info" parent="text_title">
+		<item name="android:textSize">@dimen/text_small</item>
 		<item name="android:layout_marginStart">@dimen/start_margins</item>
-			
+
 		
 		
-	</style>
-		<style name="text_title">	
-			<item name="android:typeface">serif</item>
-			<item name="android:textSize">@dimen/text_large</item>
-			<item name ="android:textColor">@color/text_color</item>
-			<item name ="android:layout_margin">@dimen/text_margin</item>	
-			<item name="android:layout_weight">0.01</item>
-	</style>
+	</style>	
 	
 	<style name="button" parent="AppTheme" >
 		<item name="android:background">@drawable/button_pressed</item>
 	</style>
-	<style name="imageview" parent="AppTheme" >
-		<item name="android:background">@drawable/imageview</item>
-	</style>
-	
 	
 </resources>
